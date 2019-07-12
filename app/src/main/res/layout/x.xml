@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bck"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="27dp"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/et_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/write_your_message_saveMsgActivity"
+                        android:inputType="textMultiLine"
+                        android:maxLength="400"
+                        android:maxLines="3"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/select_date"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:drawableLeft="@drawable/date_24dp"
+                        android:padding="2dp"
+                        android:text="@string/select_date_saveMsgActivity"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/colorPrimaryDark"/>
+
+                    <TextView
+                        android:id="@+id/getDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/select_time"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:drawableLeft="@drawable/time_24dp"
+                        android:padding="2dp"
+                        android:text="@string/select_time_saveMsgActivity"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/colorPrimaryDark"/>
+
+                    <TextView
+                        android:id="@+id/getTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/contact_no_list"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                        android:padding="2dp"
+                        android:text="@string/contact_no_saveMsgActivity"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/colorPrimaryDark"/>
+
+                    <!--<Button-->
+                    <!--android:id="@+id/contact_no_list"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="12dp"-->
+                    <!--android:layout_marginLeft="12dp"-->
+                    <!--android:src="@drawable/ic_contacts_black_24dp"/>-->
+
+
+                    <TextView
+                        android:id="@+id/contact_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/to"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:drawableLeft="@drawable/ic_exit_to_app_black_24dp"
+                        android:text="@string/message_to_saveMsgActivity"/>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/colorPrimaryDark"/>
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center"
+                        android:hint="@string/to_saveMsgActivity"
+                        android:maxLength="15"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/idnumber"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="id"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/shape"
+                android:text="@string/set_saveMsgActivity"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

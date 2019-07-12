@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"/>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/g_btn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/img"-->
+            <!--android:background="@drawable/shape"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:padding="5dp"-->
+            <!--android:text="Sign in with Google"/>-->
+
+        <TextView
+            android:id="@+id/wlc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berkshire_swash"
+            android:gravity="center"
+            android:text="Welcome"
+            android:layout_below="@+id/img"
+            android:textColor="#000000"
+            android:textSize="27dp"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/to_cont"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="14dp"-->
+            <!--android:text="To Continue"-->
+            <!--android:layout_below="@+id/wlc"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="12dp"/>-->
+
+
+        <!--<com.google.android.gms.common.SignInButton-->
+            <!--android:id="@+id/google_signin_button"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/wlc"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:layout_marginRight="12dp"/>-->
+
+        <com.shobhitpuri.custombuttons.GoogleSignInButton
+            android:id="@+id/google_signin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wlc"
+            android:layout_centerInParent="true"
+            android:text="@string/google_sign_in"
+            app:isDarkTheme="false"/>
+
+
+
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:weightSum="2">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_weight="1">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:fontFamily="@font/berkshire_swash"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Welcome"-->
+    <!--android:textColor="#000000"-->
+    <!--android:layout_marginTop="250dp"-->
+    <!--android:textSize="27dp"/>-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--android:background="@drawable/background">-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="Please Sign in To Use"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="#000"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textSize="14sp"/>&ndash;&gt;-->
+
+    <!--<com.google.android.gms.common.SignInButton-->
+    <!--android:id="@+id/google_signin_button"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:layout_marginLeft="12dp"-->
+    <!--android:layout_marginRight="12dp"/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_marginTop="100dp"-->
+    <!--android:src="@drawable/logo"/>-->
+
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Wishenger</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Wishenger</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--saved_msg_listview-->
+
+    <string name="message_wishlist">Message :</string>
+    <string name="date_wishlist">Date :</string>
+    <string name="time_wishlist">Time :</string>
+    <string name="to_wishlist">To :</string>
+    <string name="phone_no_wishlist">Phone No :</string>
+
+    <!--mainActivity-->
+    <string name="share_mainactivity">Share</string>
+    <string name="wishlist_mainactivity">Wishlist</string>
+    <string name="wish_cards_mainactivity">Wish Cards</string>
+    <string name="set_message_mainactivity">Set Message</string>
+
+    <!--save message activity-->
+    <string name="write_your_message_saveMsgActivity">Write your message</string>
+    <string name="select_date_saveMsgActivity">Select Date</string>
+    <string name="select_time_saveMsgActivity">Select Time</string>
+    <string name="contact_no_saveMsgActivity">Contact no</string>
+    <string name="message_to_saveMsgActivity">Message To</string>
+    <string name="to_saveMsgActivity">To</string>
+    <string name="set_saveMsgActivity">Set</string>
+
+    <!--actionbar-->
+    <string name="rate_us_actionbarMenu">Rate Us</string>
+    <string name="logout_actionbarMenu">Logout</string>
+    <string name="permission_actionbarMenu">Permission</string>
+
+    <!--drawer menu-->
+    <string name="dashboard_drawer">Dashboard</string>
+    <string name="templates_drawer">Templates</string>
+    <string name="help_drawer">Help</string>
+    <string name="about_us_drawer">About</string>
+    <string name="faqs_drawer">FAQs</string>
+    <string name="festival_drawer">Festival</string>
+    <string name="anniversary_drawer">Anniversary</string>
+    <string name="birthday_drawer">Birthday</string>
+    <string name="settings">Settings</string>
+
+
+</resources>

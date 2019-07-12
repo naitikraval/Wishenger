@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".Splashscreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Wishenger"
+        android:textColor="#000"
+        android:textSize="27sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Everyone is special for us!"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>

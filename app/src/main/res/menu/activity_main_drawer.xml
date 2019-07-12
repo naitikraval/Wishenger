@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/dashboard_drawer"/>
+
+        <item
+            android:id="@+id/templates"
+            android:icon="@drawable/ic_arrow_drop_down_black_24dp"
+            android:title="@string/templates_drawer"/>
+
+        <item
+            android:id="@+id/birthday"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:visible="false"
+            android:title="@string/birthday_drawer"/>
+        <item
+            android:id="@+id/anniversary"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:visible="false"
+            android:title="@string/anniversary_drawer"/>
+        <item
+            android:id="@+id/festivals"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:visible="false"
+            android:title="@string/festival_drawer"/>
+
+        <item
+            android:id="@+id/Faq"
+            android:icon="@drawable/information"
+            android:title="@string/faqs_drawer"/>
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/about_us_drawer"/>
+
+
+    </group>
+
+</menu>
